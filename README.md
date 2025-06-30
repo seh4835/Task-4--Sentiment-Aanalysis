@@ -134,3 +134,7 @@ Deploy as a web app for interactive sentiment analysis
 
 # 📌 Final Note
 Thank you for visiting this repository! If you found it useful, please ⭐ star it and share your feedback. Your suggestions will help me improve and work on more advanced projects.
+
+# OUTPUT
+
+![Image](https://github.com/user-attachments/assets/0bf593e0-e436-48a0-9db7-223c345075b3)
