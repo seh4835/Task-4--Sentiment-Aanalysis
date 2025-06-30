@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-📌 Project Overview
+# 📌 Project Overview
 
 This repository contains my implementation of sentiment analysis on Twitter reviews using Natural Language Processing (NLP) techniques. As part of my data science and machine learning learning path, I wanted to work on a real-world-like dataset with textual data, to practice cleaning, vectorizing, training, and extracting insights from it.
 
@@ -32,7 +32,7 @@ Generating final insights and sample predictions
 
 My main goal was to demonstrate a clear end-to-end NLP workflow for sentiment classification on short text data, especially tweets, which often have casual, informal language and require thorough cleaning.
 
-💡 Motivation
+# 💡 Motivation
 I have always found social media analysis interesting, especially sentiment analysis on tweets. Twitter is widely used by brands, public figures, and regular users to express opinions. Sentiment analysis allows us to extract meaningful trends from these opinions, enabling decision making in marketing, brand reputation management, public opinion analysis, and more.
 
 Through this project, I aimed to:
@@ -47,7 +47,7 @@ Understand challenges in data cleaning for short texts
 
 Improve my ability to write clean, modular, and well-commented code
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Python 3.x
 
 Pandas for data manipulation
@@ -60,7 +60,7 @@ Scikit-learn for CountVectorizer, model building, evaluation
 
 Matplotlib & Seaborn for data visualization
 
-📂 Dataset
+# 📂 Dataset
 The dataset used is a synthetic dataset created by me containing 100 entries with three sentiment classes:
 
 Positive
@@ -79,7 +79,7 @@ sentiment: Labelled sentiment
 
 Although it is synthetic, I designed the tweets to resemble realistic short reviews to simulate a real Twitter dataset.
 
-📑 Code Explanation
+# 📑 Code Explanation
 1. Data Loading and Exploration
 I load the CSV file using pandas and inspect basic statistics, number of entries per class, and sample rows to understand the dataset.
 
@@ -112,14 +112,14 @@ Confusion Matrix plotted using Seaborn heatmap for visual analysis of misclassif
 6. Sample Predictions
 I test the model on a few new sample tweets to see its predictions on unseen data.
 
-📊 Results and Insights
+# 📊 Results and Insights
 The model performed well on the small synthetic dataset with high accuracy.
 
 Positive and negative tweets were easier to classify compared to neutral tweets, indicating the model effectively learns strong emotional cues.
 
 Neutral tweets often lack clear sentiment words, hence may require additional feature engineering or advanced models for better classification.
 
-🎯 Future Work
+# 🎯 Future Work
 In future iterations, I plan to:
 
 Use real Twitter datasets via Twitter API for authentic data
@@ -132,5 +132,5 @@ Perform hyperparameter tuning to improve performance
 
 Deploy as a web app for interactive sentiment analysis
 
-📌 Final Note
+# 📌 Final Note
 Thank you for visiting this repository! If you found it useful, please ⭐ star it and share your feedback. Your suggestions will help me improve and work on more advanced projects.
